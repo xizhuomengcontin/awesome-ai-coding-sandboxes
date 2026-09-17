@@ -174,6 +174,7 @@ Related but not untrusted-code sandboxes for coding agents:
 - [agentbox (madarco)](https://github.com/madarco/agentbox) - Self-hosted CLI running coding agents in parallel (Docker+FUSE / cloud VM); dev-workflow tooling on off-the-shelf isolation. MIT.
 - [Giant Swarm Agent Platform](https://www.giantswarm.io/agent-platform) - Kubernetes-based agent governance/orchestration control plane (MCP); ships no dedicated untrusted-code sandbox.
 - [Fireactions](https://github.com/hostinger/fireactions) - GitHub-Actions runner orchestrator on Firecracker µVMs; no agent/sandbox API. Apache-2.0.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Recorder for the outbound path: an HTTP proxy/shim in front of the model provider that captures every prompt, tool call and raw response byte an agent run sends, so afterwards you can inspect exactly what left the sandbox and replay the same run offline without contacting the provider. npm `orcareplay`, Apache-2.0.
 
 ## Contributing
 
